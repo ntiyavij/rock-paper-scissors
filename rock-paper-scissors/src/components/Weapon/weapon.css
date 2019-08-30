@@ -12,7 +12,7 @@
 	width: 60px !Important;
 }
 
-.Weapon .empty {
+ .empty {
 	background-color: transparent;
 	border: 2px dashed #fff;
 	color: #fff;

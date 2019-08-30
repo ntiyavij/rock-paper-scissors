@@ -9,10 +9,11 @@ const Modes = ({ modes, onModeSelect }) => (
     {Object.keys(modes).map(mode => {
       const label = modes[mode].label;
 
-      return (<div className='divButton'>
-        <Button onClick={() =>onModeSelect(mode)}>
-          {label}
-        </Button ></div>);
+      return (
+        <div key= {mode} className='divButton'>
+          <Button onClick={() => onModeSelect(mode)}>
+            {label}
+          </Button ></div>);
     })
     }
   </div>

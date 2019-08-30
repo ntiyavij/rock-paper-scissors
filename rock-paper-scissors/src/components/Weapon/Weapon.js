@@ -6,7 +6,7 @@ import Loading from '../../ui/Loading';
 
 const Weapon = ({ icon, loading }) => (
 	<span
-		className={!loading && icon ? `fa fa-hand-${icon}-o Weapon` : ' Weapon empty'}
+		className={!loading && icon ? `Weapon fa fa-hand-${icon}-o` : ' Weapon empty'}
 	>
 		{!loading && !icon && '?'}
 		{loading && <Loading />}

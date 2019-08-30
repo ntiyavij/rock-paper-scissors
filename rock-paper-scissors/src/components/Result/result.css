@@ -1,0 +1,27 @@
+.Result {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 160px;
+	justify-content: center;
+}
+
+.Result>div {
+	text-align: center;
+}
+
+.Result .winner {
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.Result .play {
+	align-self: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.play button{
+	margin: 10px;
+}

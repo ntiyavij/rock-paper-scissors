@@ -3,7 +3,7 @@ import React from 'react';
 import  './loading.css';
 
 const Loading = () => (
-	<span styleName="loading" />
+	<span className="loading" />
 );
 
 export default Loading;
